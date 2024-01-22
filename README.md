@@ -87,7 +87,7 @@ with gr.Blocks() as iface:
 
 ## 4. Pretpregled
 
-![app_preview](/app_preview.png)
+![app_preview](/images/app_preview.png)
 
 ## 5. Hosting
 
