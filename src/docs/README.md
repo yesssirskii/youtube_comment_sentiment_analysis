@@ -214,7 +214,7 @@ def fetch_comments():
     conn.close()
 ```
 
-Ova funkcija se poziva kada se klikne na gumb "Fetch COmments From DB" u Gradio sučelju:
+Ova funkcija se poziva kada se klikne na gumb "Fetch Comments From DB" u Gradio sučelju:
 ```python
 fetch_button.click(fetch_comments)
 ```
