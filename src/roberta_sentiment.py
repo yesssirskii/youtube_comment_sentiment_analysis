@@ -50,7 +50,7 @@ def fetch_comments():
     conn.close()
 
 with gr.Blocks() as iface:
-    gr.Markdown("YouTube Comment Sentiment Analysis")
+    gr.Markdown("YouTube Comment Sentiment Analysis - RoBERTa")
     gr.Markdown("Enter a YouTube Video ID and select the number of comments to analyze their sentiments.")
     with gr.Row():
         video_id_input = gr.Textbox(label="YouTube Video ID", placeholder="Enter YouTube Video ID here...")
